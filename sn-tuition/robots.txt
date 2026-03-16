@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sntuitions.netlify.app/sitemap.xml

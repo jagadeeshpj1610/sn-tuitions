@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>SN Tuitions Vijayawada – Best Tuition Center in Ramavarapadu & Kanuru | Classes 6–Intermediate</title>
+<meta name="description" content="SN Tuition Point – Best tuition center in Ramavarapadu and Kanuru, Vijayawada. 2 Branches! Classes 6 to Intermediate. IIT JEE, NEET & MPC coaching. IIT faculty. Call +91 9959256426"/>
+<meta name="keywords" content="SN Tuition Point, SN Tuitions Vijayawada, SN Tuitions Ramavarapadu, SN Tuitions Kanuru, tuition center Vijayawada, best tuition Vijayawada, tuition Ramavarapadu, tuition Kanuru, IIT JEE coaching Vijayawada, NEET coaching Vijayawada, intermediate tuition Vijayawada"/>
+<meta property="og:title" content="SN Tuition Point - Best Tuition Center Vijayawada"/>
+<meta property="og:description" content="Best tuition center for Classes 6 to Intermediate. IIT JEE, NEET coaching. Admissions Open 2026!"/>
+<meta property="og:image" content="4.webp"/>
+<meta property="og:type" content="website"/>
+<meta name="google-site-verification" content="JY8floj4ZhOARaTTsNrrDvYGCIIe1NYutT9Dvm5zcBk" />
+<link rel="preload" as="image" href="4.webp"/>
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon.png">
+<link rel="shortcut icon" href="/favicon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"EducationalOrganization","name":"SN Tuition Point","telephone":"+91-9959256426","address":{"@type":"PostalAddress","streetAddress":"Kottevari Veedhi, 8th Line, Ramavarapadu","addressLocality":"Vijayawada","addressRegion":"Andhra Pradesh","postalCode":"521108"},"url":"https://sntuitionpoint.com","openingHours":"Mo-Sa 17:30-21:00","aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"53"}}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+:root {
+  --navy: #0a1628;
+  --navy2: #0f2044;
+  --navy3: #1a3366;
+  --blue: #1a56db;
+  --blue2: #2563eb;
+  --light: #e8f0fe;
+  --white: #ffffff;
+  --gray: #64748b;
+  --lightgray: #f1f5f9;
+  --text: #1e293b;
+  --border: #e2e8f0;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;color:var(--text);background:var(--white);overflow-x:hidden;}
+
+/* SPLASH SCREEN */
+#splash{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;background:#0a1628;overflow:hidden;}
+#splash-left{position:absolute;top:0;left:0;width:51%;height:100%;background:#0a1628;z-index:2;transition:transform .8s cubic-bezier(.76,0,.24,1);}
+#splash-right{position:absolute;top:0;right:0;width:51%;height:100%;background:#0a1628;z-index:2;transition:transform .8s cubic-bezier(.76,0,.24,1);}
+#splash-center{position:relative;z-index:3;display:flex;align-items:center;justify-content:center;}
+#splash-glow{position:absolute;width:280px;height:280px;background:radial-gradient(circle,rgba(26,86,219,.55) 0%,transparent 70%);border-radius:50%;opacity:0;}
+#splash-logo{width:min(150px,35vw);height:min(150px,35vw);object-fit:contain;opacity:0;transform:scale(0.4);transition:opacity .5s ease,transform .6s cubic-bezier(.34,1.56,.64,1);}
+#splash.active #splash-logo{opacity:1;transform:scale(1);}
+#splash.active #splash-glow{opacity:1;animation:sGlow 1.6s ease-in-out infinite;}
+#splash.open #splash-left{transform:translateX(-102%);}
+#splash.open #splash-right{transform:translateX(102%);}
+#splash.done{opacity:0;transition:opacity .5s ease;}
+@keyframes sGlow{0%,100%{transform:scale(1);opacity:.5;}50%{transform:scale(1.35);opacity:1;}}
+
+/* NAVBAR */
+nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0 5vw;height:70px;display:flex;align-items:center;justify-content:space-between;transition:all .3s;}
+nav.scrolled{background:var(--navy);box-shadow:0 4px 30px rgba(0,0,0,.3);}
+nav.top{background:transparent;}
+.nav-logo{display:flex;align-items:center;gap:.75rem;text-decoration:none;}
+.nav-logo-icon{width:48px;height:48px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.07);border-radius:12px;padding:4px;}
+.nav-logo-text{color:white;font-weight:700;font-size:1.1rem;line-height:1.2;}
+.nav-logo-text span{display:block;font-size:.72rem;color:rgba(255,255,255,.6);font-weight:400;}
+.nav-links{display:flex;align-items:center;gap:2rem;}
+.nav-links a{color:rgba(255,255,255,.8);text-decoration:none;font-size:.88rem;font-weight:500;transition:color .2s;}
+.nav-links a:hover{color:white;}
+.nav-cta{background:var(--blue);color:white!important;padding:.5rem 1.2rem;border-radius:8px;font-weight:700!important;}
+.hamburger{display:none;background:none;border:none;cursor:pointer;flex-direction:column;gap:5px;padding:.3rem;}
+.hamburger span{width:24px;height:2px;background:white;border-radius:2px;transition:all .3s;}
+.mobile-menu{display:none;position:fixed;top:70px;left:0;right:0;background:var(--navy);padding:1.5rem 5vw;flex-direction:column;gap:1rem;z-index:999;border-top:1px solid rgba(255,255,255,.1);}
+.mobile-menu a{color:rgba(255,255,255,.85);text-decoration:none;font-size:1rem;font-weight:500;padding:.5rem 0;border-bottom:1px solid rgba(255,255,255,.08);}
+.mobile-menu.open{display:flex;}
+
+/* HERO */
+.hero{min-height:100vh;background:var(--navy);position:relative;display:flex;align-items:center;overflow:hidden;}
+.hero-bg{position:absolute;inset:0;background:linear-gradient(135deg,#0a1628 0%,#0f2044 60%,#1a3366 100%);}
+.hero-dots{position:absolute;inset:0;opacity:.04;background-image:radial-gradient(circle at 2px 2px,white 1px,transparent 0);background-size:36px 36px;}
+
+.hero-img-bg img{width:100%;height:100%;object-fit:cover;object-position:center top;}
+
+
+.hero-content{position:relative;z-index:2;padding:0 5vw;max-width:1200px;margin:0 auto;width:100%;display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;padding-top:70px;}
+.hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(26,86,219,.2);border:1px solid rgba(26,86,219,.4);color:#93c5fd;padding:.4rem 1rem;border-radius:100px;font-size:.78rem;font-weight:600;margin-bottom:1.5rem;}
+.hero-badge::before{content:'';width:6px;height:6px;background:#60a5fa;border-radius:50%;animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:.4;}}
+h1.hero-title{font-family:'Playfair Display',serif;font-size:clamp(2.2rem,5vw,3.8rem);color:white;line-height:1.15;margin-bottom:1rem;}
+h1.hero-title span{color:#60a5fa;}
+.hero-sub{color:rgba(255,255,255,.65);font-size:1.05rem;line-height:1.7;margin-bottom:2rem;max-width:480px;}
+.hero-btns{display:flex;gap:1rem;flex-wrap:wrap;}
+.btn-primary{background:var(--blue);color:white;padding:.85rem 2rem;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem;display:inline-flex;align-items:center;gap:.5rem;transition:all .2s;border:2px solid var(--blue);}
+.btn-primary:hover{background:#1d4ed8;transform:translateY(-2px);box-shadow:0 8px 25px rgba(26,86,219,.4);}
+.btn-secondary{background:transparent;color:white;padding:.85rem 2rem;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem;display:inline-flex;align-items:center;gap:.5rem;border:2px solid rgba(255,255,255,.3);transition:all .2s;}
+.btn-secondary:hover{border-color:white;background:rgba(255,255,255,.05);}
+.hero-img-wrap{position:relative;}
+.hero-img{width:100%;height:560px;object-fit:cover;object-position:center center;border-radius:20px;box-shadow:0 20px 60px rgba(0,0,0,.5);}
+.hero-img-wrap::after{content:'';position:absolute;top:0;left:0;width:40%;height:100%;background:linear-gradient(to right,#0a1628,transparent);border-radius:20px;}
+.hero-card{position:absolute;background:white;border-radius:16px;padding:1rem 1.2rem;box-shadow:0 20px 60px rgba(0,0,0,.3);}
+.hero-card-1{bottom:-20px;left:-20px;}
+.hero-card-2{top:20px;right:-20px;}
+.hero-card-num{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:900;color:var(--navy);line-height:1;}
+.hero-card-label{font-size:.72rem;color:var(--gray);font-weight:500;margin-top:.2rem;}
+.hero-card-stars{color:#f59e0b;font-size:.9rem;margin-top:.3rem;}
+
+
+/* HERO STATS */
+.hero-stats-grid{display:flex;flex-direction:column;gap:1rem;justify-content:center;}
+.hero-stat-card{display:flex;align-items:center;gap:1.2rem;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:1.2rem 1.6rem;transition:all .3s;cursor:default;}
+.hero-stat-card:hover{background:rgba(255,255,255,.09);transform:translateX(6px);}
+.hero-stat-icon{font-size:1.8rem;width:44px;text-align:center;flex-shrink:0;}
+.hero-stat-num{font-family:'Playfair Display',serif;font-size:2rem;font-weight:900;color:white;line-height:1;min-width:70px;}
+.hero-stat-label{color:rgba(255,255,255,.55);font-size:.85rem;font-weight:500;line-height:1.3;}
+.hero-stat-divider{width:1px;height:36px;background:rgba(255,255,255,.12);flex-shrink:0;}
+
+/* STATS */
+.stats{background:var(--navy2);padding:2.5rem 5vw;}
+.stats-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;}
+.stat-item{text-align:center;padding:1.5rem 1rem;border-right:1px solid rgba(255,255,255,.08);}
+.stat-item:last-child{border-right:none;}
+.stat-num{font-family:'Playfair Display',serif;font-size:2.2rem;font-weight:900;color:white;line-height:1;}
+.stat-label{color:rgba(255,255,255,.5);font-size:.8rem;margin-top:.4rem;font-weight:500;}
+.stat-icon{font-size:1.4rem;margin-bottom:.5rem;}
+
+/* SECTIONS COMMON */
+section{padding:5rem 5vw;}
+.section-inner{max-width:1200px;margin:0 auto;}
+.section-tag{display:inline-block;background:var(--light);color:var(--blue);font-size:.75rem;font-weight:700;padding:.3rem .9rem;border-radius:100px;margin-bottom:1rem;letter-spacing:.05em;text-transform:uppercase;}
+.section-title{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3.5vw,2.8rem);color:var(--navy);line-height:1.2;margin-bottom:1rem;}
+.section-sub{color:var(--gray);font-size:1rem;line-height:1.7;max-width:560px;}
+
+/* ABOUT */
+.about{background:var(--white);}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;}
+.about-imgs{position:relative;}
+.about-img-main{width:100%;height:420px;object-fit:cover;border-radius:20px;}
+.about-img-small{position:absolute;bottom:-20px;right:-20px;width:180px;height:180px;object-fit:cover;border-radius:16px;border:4px solid white;box-shadow:0 10px 40px rgba(0,0,0,.15);}
+.about-badge{position:absolute;top:20px;left:20px;background:var(--navy);color:white;padding:.75rem 1.2rem;border-radius:12px;font-size:.85rem;font-weight:700;}
+.about-features{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-top:2rem;}
+.about-feat{display:flex;align-items:center;gap:.6rem;font-size:.88rem;font-weight:600;color:var(--text);}
+.about-feat-icon{width:32px;height:32px;background:var(--light);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:.9rem;flex-shrink:0;}
+
+/* COURSES */
+.courses{background:var(--lightgray);}
+.courses-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-top:3rem;}
+.course-card{background:white;border-radius:20px;padding:2rem;border:1px solid var(--border);transition:all .25s;position:relative;overflow:hidden;}
+.course-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:var(--blue);transform:scaleX(0);transition:transform .3s;transform-origin:left;}
+.course-card:hover{transform:translateY(-6px);box-shadow:0 20px 50px rgba(0,0,0,.1);}
+.course-card:hover::before{transform:scaleX(1);}
+.course-icon{width:52px;height:52px;background:var(--light);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:1.2rem;}
+.course-title{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;color:var(--navy);margin-bottom:.5rem;}
+.course-desc{color:var(--gray);font-size:.88rem;line-height:1.6;}
+.course-tags{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:1rem;}
+.course-tag{background:var(--light);color:var(--blue);font-size:.72rem;font-weight:600;padding:.2rem .65rem;border-radius:100px;}
+
+/* FEATURES */
+.features{background:var(--navy);padding:5rem 5vw;}
+.features-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-top:3rem;}
+.feat-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:2rem;transition:all .25s;backdrop-filter:blur(10px);}
+.feat-card:hover{background:rgba(255,255,255,.08);transform:translateY(-4px);}
+.feat-icon{font-size:2rem;margin-bottom:1rem;}
+.feat-title{color:white;font-weight:700;font-size:1rem;margin-bottom:.4rem;}
+.feat-desc{color:rgba(255,255,255,.5);font-size:.85rem;line-height:1.6;}
+
+/* GALLERY */
+.gallery{background:white;}
+.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.75rem;margin-top:3rem;}
+.gallery-grid-new{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;}
+.g-big{grid-column:span 2;grid-row:span 1;border-radius:18px;overflow:hidden;position:relative;cursor:pointer;}
+.g-small{border-radius:18px;overflow:hidden;position:relative;cursor:pointer;}
+.g-med{border-radius:18px;overflow:hidden;position:relative;cursor:pointer;}
+.g-half{border-radius:18px;overflow:hidden;position:relative;cursor:pointer;}
+.g-big img{width:100%;height:320px;object-fit:cover;transition:transform .4s;}
+.g-small img{width:100%;height:320px;object-fit:cover;transition:transform .4s;}
+.g-med img{width:100%;height:220px;object-fit:cover;transition:transform .4s;}
+.g-half img{width:100%;height:220px;object-fit:cover;transition:transform .4s;}
+.g-big:hover img,.g-small:hover img,.g-med:hover img,.g-half:hover img{transform:scale(1.06);}
+.g-label{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(10,22,40,.85));color:white;padding:.75rem 1rem;font-size:.82rem;font-weight:700;}
+.gallery-overlay{position:absolute;inset:0;background:rgba(10,22,40,.4);opacity:0;display:flex;align-items:center;justify-content:center;transition:opacity .3s;}
+.gallery-overlay span{background:white;color:var(--navy);padding:.4rem 1rem;border-radius:100px;font-size:.8rem;font-weight:700;}
+.g-big:hover .gallery-overlay,.g-small:hover .gallery-overlay,.g-med:hover .gallery-overlay,.g-half:hover .gallery-overlay{opacity:1;}
+@media(max-width:768px){.branches-grid{grid-template-columns:1fr!important;}
+  .gallery-grid-new{grid-template-columns:repeat(2,1fr);}
+  .g-big{grid-column:span 2;}
+  .g-big img{height:220px;}
+  .g-small img,.g-med img,.g-half img{height:160px;}
+}
+.gallery-item{border-radius:14px;overflow:hidden;cursor:pointer;position:relative;}
+.gallery-item img{width:100%;height:200px;object-fit:cover;transition:transform .4s;}
+.gallery-item:hover img{transform:scale(1.08);}
+.gallery-item.tall{grid-row:span 2;}
+.gallery-item.tall img{height:100%;}
+.gallery-overlay{position:absolute;inset:0;background:rgba(10,22,40,.5);opacity:0;display:flex;align-items:center;justify-content:center;transition:opacity .3s;color:white;font-size:1.5rem;}
+.gallery-item:hover .gallery-overlay{opacity:1;}
+
+/* LIGHTBOX */
+.lightbox{display:none;position:fixed;inset:0;background:rgba(0,0,0,.95);z-index:2000;align-items:center;justify-content:center;}
+.lightbox.open{display:flex;}
+.lightbox img{max-width:90vw;max-height:90vh;border-radius:12px;object-fit:contain;}
+.lightbox-close{position:absolute;top:1.5rem;right:1.5rem;background:rgba(255,255,255,.1);border:none;color:white;width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:1.2rem;}
+
+/* REVIEWS */
+.reviews{background:var(--lightgray);}
+.reviews-header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin-bottom:3rem;}
+.rating-badge{background:var(--navy);color:white;padding:1.2rem 2rem;border-radius:16px;text-align:center;}
+.rating-num{font-family:'Playfair Display',serif;font-size:3rem;font-weight:900;line-height:1;}
+.rating-stars{color:#fbbf24;font-size:1.1rem;margin:.3rem 0;}
+.rating-count{font-size:.8rem;color:rgba(255,255,255,.6);}
+.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;}
+.review-card{background:white;border-radius:20px;padding:1.8rem;border:1px solid var(--border);transition:all .25s;}
+.review-card:hover{transform:translateY(-4px);box-shadow:0 15px 40px rgba(0,0,0,.08);}
+.review-stars{color:#fbbf24;font-size:.9rem;margin-bottom:1rem;}
+.review-text{color:var(--text);font-size:.9rem;line-height:1.7;margin-bottom:1.2rem;font-style:italic;}
+.review-author{display:flex;align-items:center;gap:.75rem;}
+.review-avatar{width:40px;height:40px;border-radius:50%;background:var(--navy);color:white;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.9rem;flex-shrink:0;}
+.review-name{font-weight:700;font-size:.88rem;color:var(--navy);}
+.review-time{font-size:.75rem;color:var(--gray);}
+
+/* CONTACT */
+.contact{background:var(--navy);padding:5rem 5vw;}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;}
+.contact-info{color:white;}
+.contact-title{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3.5vw,2.8rem);color:white;margin-bottom:1rem;}
+.contact-sub{color:rgba(255,255,255,.6);line-height:1.7;margin-bottom:2.5rem;}
+.contact-items{display:flex;flex-direction:column;gap:1.2rem;}
+.contact-item{display:flex;gap:1rem;align-items:flex-start;}
+.contact-item-icon{width:46px;height:46px;background:rgba(255,255,255,.08);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;}
+.contact-item-text{color:rgba(255,255,255,.6);font-size:.88rem;line-height:1.5;}
+.contact-item-title{color:white;font-weight:700;font-size:.95rem;margin-bottom:.2rem;}
+.contact-btns{display:flex;gap:1rem;margin-top:2.5rem;flex-wrap:wrap;}
+.btn-call{background:white;color:var(--navy);padding:.85rem 1.8rem;border-radius:12px;font-weight:800;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;font-size:.92rem;transition:all .2s;}
+.btn-call:hover{background:#f1f5f9;transform:translateY(-2px);}
+.btn-wa{background:#25d366;color:white;padding:.85rem 1.8rem;border-radius:12px;font-weight:800;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;font-size:.92rem;transition:all .2s;}
+.btn-wa:hover{background:#1ebe5c;transform:translateY(-2px);}
+.map-wrap{border-radius:20px;overflow:hidden;height:380px;border:2px solid rgba(255,255,255,.1);}
+.map-wrap iframe{width:100%;height:100%;border:none;}
+
+/* FOOTER */
+footer{background:#060f1e;padding:3rem 5vw 2rem;}
+.footer-inner{max-width:1200px;margin:0 auto;}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr;gap:3rem;padding-bottom:2rem;border-bottom:1px solid rgba(255,255,255,.08);}
+.footer-brand p{color:rgba(255,255,255,.5);font-size:.85rem;line-height:1.7;margin-top:.75rem;max-width:300px;}
+.footer-col h4{color:white;font-weight:700;font-size:.9rem;margin-bottom:1rem;}
+.footer-col a{display:block;color:rgba(255,255,255,.5);text-decoration:none;font-size:.85rem;margin-bottom:.6rem;transition:color .2s;}
+.footer-col a:hover{color:white;}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;padding-top:1.5rem;flex-wrap:wrap;gap:1rem;}
+.footer-copy{color:rgba(255,255,255,.3);font-size:.8rem;}
+
+
+/* PRO GALLERY */
+.pro-gallery{display:flex;flex-direction:column;gap:1rem;}
+.pg-row{display:flex;gap:1rem;}
+.pg-row-1{height:340px;}
+.pg-row-2{height:220px;}
+.pg-row-3{height:220px;}
+.pg-feature{flex:2;}
+.pg-col{flex:1;display:flex;flex-direction:column;gap:1rem;}
+.pg-col .pg-item{flex:1;}
+.pg-row-2 .pg-item,.pg-row-3 .pg-item{flex:1;}
+.pg-item{position:relative;overflow:hidden;border-radius:16px;cursor:pointer;}
+.pg-item img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease;}
+.pg-item:hover img{transform:scale(1.07);}
+.pg-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,22,40,.85) 0%,transparent 60%);opacity:0;transition:opacity .3s;display:flex;align-items:flex-end;}
+.pg-item:hover .pg-overlay{opacity:1;}
+.pg-label{color:white;font-weight:700;font-size:.85rem;padding:.9rem 1rem;}
+@media(max-width:768px){
+  .pg-row-1{height:auto;flex-direction:column;}
+  .pg-row-2{flex-wrap:wrap;height:auto;}
+  .pg-row-3{height:auto;}
+  .pg-row-2 .pg-item{flex:calc(50% - .5rem);min-height:150px;}
+  .pg-row-3 .pg-item{flex:1;min-height:150px;}
+  .pg-feature{min-height:220px;}
+  .pg-col{flex-direction:row;min-height:150px;}
+  .pg-col .pg-item{min-height:150px;}
+}
+
+/* FLOATING WA */
+.float-wa{position:fixed;bottom:2rem;right:2rem;width:58px;height:58px;background:#25d366;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 20px rgba(37,211,102,.4);z-index:500;animation:waPulse 2s infinite;}
+@keyframes waPulse{0%,100%{box-shadow:0 4px 20px rgba(37,211,102,.4);}50%{box-shadow:0 4px 35px rgba(37,211,102,.7);}}
+.float-wa svg{width:30px;height:30px;fill:white;}
+.float-call{position:fixed;bottom:6rem;right:2rem;width:52px;height:52px;background:var(--blue);border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 20px rgba(26,86,219,.4);z-index:500;font-size:1.4rem;}
+/* FAQ */
+.faq{background:var(--white);padding:5rem 5vw;}
+.faq-list{display:flex;flex-direction:column;gap:.75rem;margin-top:3rem;max-width:750px;margin-left:auto;margin-right:auto;}
+.faq-item{border:1px solid var(--border);border-radius:16px;overflow:hidden;}
+.faq-q{padding:1.2rem 1.5rem;font-weight:700;font-size:.95rem;color:var(--navy);cursor:pointer;display:flex;justify-content:space-between;align-items:center;background:white;transition:background .2s;}
+.faq-q:hover{background:var(--lightgray);}
+.faq-q.open{background:var(--navy);color:white;}
+.faq-a{padding:0 1.5rem;max-height:0;overflow:hidden;transition:all .3s;color:var(--gray);font-size:.9rem;line-height:1.7;}
+.faq-a.open{padding:1rem 1.5rem 1.2rem;max-height:200px;}
+.faq-arrow{transition:transform .3s;font-size:.8rem;}
+.faq-q.open .faq-arrow{transform:rotate(180deg);}
+
+/* ANIMATIONS */
+.fade-up{opacity:0;transform:translateY(30px);transition:all .6s ease;}
+.fade-up.visible{opacity:1;transform:translateY(0);}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .nav-links{display:none;}
+  .hamburger{display:flex;}
+  .hero-content{grid-template-columns:1fr!important;padding-top:90px;text-align:center;}
+  .hero-img-wrap{display:none!important;}
+  .hero-img-wrap{display:none;}
+  .hero-btns{justify-content:center;}
+  .stats-inner{grid-template-columns:repeat(2,1fr);}
+  .stat-item{border-right:none;border-bottom:1px solid rgba(255,255,255,.08);}
+  .about-grid{grid-template-columns:1fr;}
+  .about-imgs{display:none;}
+  .courses-grid{grid-template-columns:1fr;}
+  .features-grid{grid-template-columns:1fr;}
+  .gallery-grid{grid-template-columns:repeat(2,1fr);}
+  .reviews-grid{grid-template-columns:1fr;}
+  .contact-grid{grid-template-columns:1fr;}
+  .footer-top{grid-template-columns:1fr;}
+  .reviews-header{flex-direction:column;}
+  .section-sub{max-width:100%;}
+}
+@media(max-width:480px){
+  .stats-inner{grid-template-columns:repeat(2,1fr);}
+  .about-features{grid-template-columns:1fr;}
+  .gallery-grid{grid-template-columns:repeat(2,1fr);}
+  .hero-btns{flex-direction:column;align-items:center;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<!-- SPLASH SCREEN -->
+<div id="splash">
+  <div id="splash-left"></div>
+  <div id="splash-right"></div>
+  <div id="splash-center">
+    <div id="splash-glow"></div>
+    <img src="logo.png" id="splash-logo" alt="SN Tuition Point"/>
+  </div>
+</div>
+
+<nav id="navbar" class="top">
+  <a href="#" class="nav-logo">
+    <div class="nav-logo-icon"><img src="logo.png" alt="SN Logo" style="width:44px;height:44px;object-fit:contain;"/></div>
+    <div class="nav-logo-text">SN Tuitions <span>Vijayawada</span></div>
+  </a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#branches">Branches</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact" class="nav-cta">Contact Us</a>
+  </div>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#courses" onclick="toggleMenu()">Courses</a>
+  <a href="#gallery" onclick="toggleMenu()">Gallery</a>
+  <a href="#branches" onclick="toggleMenu()">Branches</a>
+  <a href="#reviews" onclick="toggleMenu()">Reviews</a>
+  <a href="#faq" onclick="toggleMenu()">FAQ</a>
+  <a href="#contact" onclick="toggleMenu()">Contact Us</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-dots"></div>
+
+  <div class="hero-content">
+    <div class="hero-text fade-up">
+      <div class="hero-badge">🎓 Admissions Open 2026 • 2 Branches • Rated 5.0 by 50+ Parents</div>
+      <h1 class="hero-title">Shape Your<br/>Child's <span>Future</span><br/>With Us</h1>
+      <p class="hero-sub">SN Tuitions — Expert coaching for classes VI to Intermediate. IIT JEE & NEET specialists with expert faculty from IIT (MPC).</p>
+      <div class="hero-btns">
+        <a href="https://wa.me/919959256426?text=I%20want%20to%20book%20a%20free%20demo%20class" target="_blank" class="btn-primary">🎓 Book Free Demo Class</a>
+        <a href="tel:9959256426" class="btn-secondary">📞 Call Now</a>
+      </div>
+      <p style="color:rgba(255,255,255,.4);font-size:.8rem;margin-top:1rem;">⚡ Limited seats available for 2026 batch</p>
+    </div>
+    <div class="hero-stats-grid fade-up">
+      <div class="hero-stat-card">
+        <div class="hero-stat-icon">👨‍🎓</div>
+        <div class="hero-stat-num" data-count="150" data-suffix="+">0</div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat-label">Happy Students</div>
+      </div>
+      <div class="hero-stat-card">
+        <div class="hero-stat-icon">👨‍🏫</div>
+        <div class="hero-stat-num" data-count="7" data-suffix="+">0</div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat-label">Expert Teachers</div>
+      </div>
+      <div class="hero-stat-card">
+        <div class="hero-stat-icon">⭐</div>
+        <div class="hero-stat-num" data-count="5" data-suffix=".0">0</div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat-label">Google Rating</div>
+      </div>
+      <div class="hero-stat-card">
+        <div class="hero-stat-icon">🏆</div>
+        <div class="hero-stat-num" data-count="4" data-suffix="+">0</div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat-label">Years of Excellence</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-imgs fade-up">
+        <img src="5.webp" loading="lazy" alt="SN Tuitions" class="about-img-main"/>
+        <img src="7.webp" loading="lazy" alt="Classroom at SN Tuitions Vijayawada" class="about-img-small"/>
+        <div class="about-badge">Est. 2022 🎓</div>
+      </div>
+      <div class="fade-up">
+        <div class="section-tag">About Us</div>
+        <h2 class="section-title">Vijayawada's Most Trusted Tuition Center</h2>
+        <p class="section-sub">SN Tuitions has been shaping the future of students since 2022. Located in the heart of Ramavarapadu, we provide quality education from Class VI to Intermediate with expert faculty selected from IIT (MPC).</p>
+        <p class="section-sub" style="margin-top:1rem;">"A Little Progress Each Day Adds upto Big Results" — this is our philosophy. Every student receives individual attention to reach their full potential.</p>
+        <div class="about-features">
+          <div class="about-feat"><div class="about-feat-icon">🎓</div>IIT Faculty</div>
+          <div class="about-feat"><div class="about-feat-icon">📹</div> CCTV Monitoring</div>
+          <div class="about-feat"><div class="about-feat-icon">📚</div> All Subjects</div>
+          
+          <div class="about-feat"><div class="about-feat-icon">🔬</div> IIT JEE & NEET</div>
+          <div class="about-feat"><div class="about-feat-icon">🌟</div> 5.0 ⭐ Rating</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section class="courses" id="courses">
+  <div class="section-inner">
+    <div class="fade-up" style="text-align:center;">
+      <div class="section-tag">Our Programs</div>
+      <h2 class="section-title">Courses We Offer</h2>
+      <p class="section-sub" style="margin:0 auto;">Comprehensive coaching programs designed for every student from Class VI to Intermediate.</p>
+    </div>
+    <div class="courses-grid">
+      <div class="course-card fade-up">
+        <div class="course-icon">📖</div>
+        <div class="course-title">Classes VI to X</div>
+        <div class="course-desc">Strong foundation building for school students. All subjects covered with expert teachers ensuring academic excellence.</div>
+        <div class="course-tags">
+          <span class="course-tag">Maths</span>
+          <span class="course-tag">Science</span>
+          <span class="course-tag">English</span>
+          <span class="course-tag">Telugu</span>
+          <span class="course-tag">Social</span>
+        </div>
+      </div>
+      <div class="course-card fade-up">
+        <div class="course-icon">🎯</div>
+        <div class="course-title">Intermediate (MPC)</div>
+        <div class="course-desc">Expert coaching for Maths, Physics & Chemistry with faculty from IIT. Strong focus on concept clarity.</div>
+        <div class="course-tags">
+          <span class="course-tag">Physics</span>
+          <span class="course-tag">Chemistry</span>
+          <span class="course-tag">Maths</span>
+        </div>
+      </div>
+      <div class="course-card fade-up">
+        <div class="course-icon">🔬</div>
+        <div class="course-title">IIT JEE & NEET</div>
+        <div class="course-desc">Specialized coaching for competitive exams with expert faculty. Focused guidance for IIT JEE and NEET aspirants.</div>
+        <div class="course-tags">
+          <span class="course-tag">IIT JEE</span>
+          <span class="course-tag">NEET</span>
+          
+        </div>
+      </div>
+      <div class="course-card fade-up">
+        <div class="course-icon">📝</div>
+        <div class="course-title">Board Exam Prep</div>
+        <div class="course-desc">Dedicated preparation for CBSE, ICSE and SSC board examinations with previous year papers and mock tests.</div>
+        <div class="course-tags">
+          <span class="course-tag">CBSE</span>
+          <span class="course-tag">ICSE</span>
+          <span class="course-tag">SSC</span>
+        </div>
+      </div>
+      <div class="course-card fade-up">
+        <div class="course-icon">🌐</div>
+        <div class="course-title">Languages</div>
+        <div class="course-desc">Extra faculty available for Hindi and Telugu language subjects ensuring students excel in all areas.</div>
+        <div class="course-tags">
+          <span class="course-tag">Hindi</span>
+          <span class="course-tag">Telugu</span>
+          <span class="course-tag">English</span>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+  <div class="section-inner">
+    <div class="fade-up" style="text-align:center;">
+      <div class="section-tag" style="background:rgba(255,255,255,.1);color:#93c5fd;">Why Choose Us</div>
+      <h2 class="section-title" style="color:white;">Why SN Tuitions?</h2>
+      <p class="section-sub" style="color:rgba(255,255,255,.6);margin:0 auto;">We are not just a tuition center — we are a mini school that nurtures every student to achieve their dreams.</p>
+    </div>
+    <div class="features-grid" style="margin-top:3rem;">
+      <div class="feat-card fade-up">
+        <div class="feat-icon">🎓</div>
+        <div class="feat-title">Expert Faculty</div>
+        <div class="feat-desc">Selected faculty from IIT (MPC) ensuring the highest quality of education for every student.</div>
+      </div>
+      <div class="feat-card fade-up">
+        <div class="feat-icon">👁️</div>
+        <div class="feat-title">CCTV Monitoring</div>
+        <div class="feat-desc">Complete CCTV surveillance for student safety. Parents can have complete peace of mind.</div>
+      </div>
+      <div class="feat-card fade-up">
+        <div class="feat-icon">📚</div>
+        <div class="feat-title">All Subjects</div>
+        <div class="feat-desc">Dedicated teachers for every subject. No need to go anywhere else — everything under one roof.</div>
+      </div>
+      <div class="feat-card fade-up">
+        <div class="feat-icon">🏆</div>
+        <div class="feat-title">Proven Results</div>
+        <div class="feat-desc">Our students consistently achieve top ranks. John secured 1st rank among hundreds of students.</div>
+      </div>
+      <div class="feat-card fade-up">
+        <div class="feat-icon">❤️</div>
+        <div class="feat-title">Individual Attention</div>
+        <div class="feat-desc">Every student is treated personally. We identify weaknesses and work on them individually.</div>
+      </div>
+      <div class="feat-card fade-up">
+        <div class="feat-icon">🌟</div>
+        <div class="feat-title">5.0 Star Rating</div>
+        <div class="feat-desc">Rated 5.0 stars by 53+ parents on Google. The trust of parents is our biggest achievement.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+  <div class="section-inner">
+    <div class="fade-up">
+      <div class="section-tag">Gallery</div>
+      <h2 class="section-title">Life at SN Tuitions</h2>
+      <p class="section-sub">A glimpse into our vibrant learning environment and student activities.</p>
+    </div>
+    <div class="pro-gallery" style="margin-top:2.5rem;">
+      <div class="pg-row pg-row-1">
+        <div class="pg-item pg-feat fade-up" onclick="openLightbox('3.webp')">
+          <img src="3.webp" alt="SN Tuitions students" loading="lazy"/>
+          <div class="pg-overlay"><div class="pg-label">Our Students 👨‍🎓</div></div>
+        </div>
+        <div class="pg-col">
+          <div class="pg-item fade-up" onclick="openLightbox('2.webp')">
+            <img src="2.webp" alt="SN Tuitions center" loading="lazy"/>
+            <div class="pg-overlay"><div class="pg-label">Our Center 🏫</div></div>
+          </div>
+          <div class="pg-item fade-up" onclick="openLightbox('7.webp')">
+            <img src="7.webp" alt="Classroom" loading="lazy"/>
+            <div class="pg-overlay"><div class="pg-label">Classroom 📚</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="pg-row pg-row-2">
+        <div class="pg-item fade-up" onclick="openLightbox('6.webp')">
+          <img src="6.webp" alt="Annual celebration" loading="lazy"/>
+          <div class="pg-overlay"><div class="pg-label">Annual Day 🎉</div></div>
+        </div>
+        <div class="pg-item fade-up" onclick="openLightbox('8.webp')">
+          <img src="8.webp" alt="Happy students" loading="lazy"/>
+          <div class="pg-overlay"><div class="pg-label">Happy Students 😊</div></div>
+        </div>
+        <div class="pg-item fade-up" onclick="openLightbox('10.webp')">
+          <img src="10.webp" alt="Teaching session" loading="lazy"/>
+          <div class="pg-overlay"><div class="pg-label">Expert Teaching 🎯</div></div>
+        </div>
+      </div>
+      <div class="pg-row pg-row-3">
+        <div class="pg-item fade-up" onclick="openLightbox('9.webp')">
+          <img src="9.webp" alt="Study session" loading="lazy"/>
+          <div class="pg-overlay"><div class="pg-label">Study Time 📖</div></div>
+        </div>
+        <div class="pg-item fade-up" onclick="openLightbox('12.webp')">
+          <img src="12.webp" alt="Students" loading="lazy"/>
+          <div class="pg-overlay"><div class="pg-label">Growing Together 🌱</div></div>
+        </div>
+        <div class="pg-item fade-up" onclick="openLightbox('19.webp')">
+          <img src="19.webp" alt="SN Tuitions" loading="lazy"/>
+          <div class="pg-overlay"><div class="pg-label">SN Tuitions 🌟</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+  <div class="section-inner">
+    <div class="reviews-header fade-up">
+      <div>
+        <div class="section-tag">Testimonials</div>
+        <h2 class="section-title">What Parents Say</h2>
+      </div>
+      <div class="rating-badge">
+        <div class="rating-num">5.0</div>
+        <div class="rating-stars">★★★★★</div>
+        <div class="rating-count">53 Google Reviews</div>
+      </div>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card fade-up">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">"This tuition is not a tuition — it's a mini school. The faculty for each subject and their explanation is excellent. Highly recommended!"</div>
+        <div class="review-author">
+          <div class="review-avatar">I</div>
+          <div><div class="review-name">Indira Kommuri</div><div class="review-time">2 years ago</div></div>
+        </div>
+      </div>
+      <div class="review-card fade-up">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">"My child John got 1st rank in this tuition! So wonderful — I have never seen such a dedicated tuition in my life."</div>
+        <div class="review-author">
+          <div class="review-avatar">B</div>
+          <div><div class="review-name">Babu Kommuri</div><div class="review-time">1 month ago</div></div>
+        </div>
+      </div>
+      <div class="review-card fade-up">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">"Students grow not only in education but in curricular activities too. A tuition with great discipline and amazing ambiance!"</div>
+        <div class="review-author">
+          <div class="review-avatar">B</div>
+          <div><div class="review-name">Blessy</div><div class="review-time">6 months ago</div></div>
+        </div>
+      </div>
+      <div class="review-card fade-up">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">"Number one tuition in Vijayawada! A tuition with good atmosphere. All subject teachers are available. Truly excellent!"</div>
+        <div class="review-author">
+          <div class="review-avatar">I</div>
+          <div><div class="review-name">Ishan Pitani</div><div class="review-time">1 year ago</div></div>
+        </div>
+      </div>
+      <div class="review-card fade-up">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">"My son has gained so much knowledge here. The ambience of this tuition is very good compared to other tuitions in the locality."</div>
+        <div class="review-author">
+          <div class="review-avatar">M</div>
+          <div><div class="review-name">Malli Vja</div><div class="review-time">2 years ago</div></div>
+        </div>
+      </div>
+      <div class="review-card fade-up">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">"My daughter is performing very well in studies and has developed her skills greatly. They teach all subjects with great dedication."</div>
+        <div class="review-author">
+          <div class="review-avatar">V</div>
+          <div><div class="review-name">VEMPA Durgadevi</div><div class="review-time">1 year ago</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="section-inner">
+    <div class="fade-up" style="text-align:center;">
+      <div class="section-tag">FAQ</div>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-sub" style="margin:0 auto;">Everything parents ask before joining SN Tuitions.</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item fade-up">
+        <div class="faq-q" onclick="toggleFaq(this)">Which classes do you teach? <span class="faq-arrow">▼</span></div>
+        <div class="faq-a">We teach students from Class 6 to Intermediate (Class 12). All subjects are covered with dedicated teachers for each subject.</div>
+      </div>
+      <div class="faq-item fade-up">
+        <div class="faq-q" onclick="toggleFaq(this)">Do you provide IIT JEE and NEET coaching? <span class="faq-arrow">▼</span></div>
+        <div class="faq-a">Yes! We have specialized faculty from IIT (MPC) who provide expert coaching for IIT JEE and NEET examinations.</div>
+      </div>
+      <div class="faq-item fade-up">
+        <div class="faq-q" onclick="toggleFaq(this)">Can we attend a free demo class? <span class="faq-arrow">▼</span></div>
+        <div class="faq-a">Absolutely! We offer a free demo class for all new students. Just WhatsApp us on call 9959256426 to book your free demo class today.</div>
+      </div>
+      <div class="faq-item fade-up">
+        <div class="faq-q" onclick="toggleFaq(this)">What are the class timings? <span class="faq-arrow">▼</span></div>
+        <div class="faq-a">Our classes run from 5:30 PM to 9:00 PM, Monday to Saturday. We are located at 2 Branches 1. Kottevari Veedhi, 8th Line, Ramavarapadu, 2. Main Road Kanuru Vijayawada.</div>
+      </div>
+      <div class="faq-item fade-up">
+        <div class="faq-q" onclick="toggleFaq(this)">Which boards do you cover? <span class="faq-arrow">▼</span></div>
+        <div class="faq-a">We cover CBSE, ICSE and SSC boards. Our faculty is well equipped to handle all board examination requirements and help students score maximum marks.</div>
+      </div>
+      <div class="faq-item fade-up">
+        <div class="faq-q" onclick="toggleFaq(this)">Is there CCTV monitoring? <span class="faq-arrow">▼</span></div>
+        <div class="faq-a">Yes! Complete CCTV surveillance is available throughout the premises for student safety. Parents can have complete peace of mind.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BRANCHES -->
+<section style="background:var(--lightgray);padding:5rem 5vw;" id="branches">
+  <div class="section-inner">
+    <div class="fade-up" style="text-align:center;">
+      <div class="section-tag">Our Locations</div>
+      <h2 class="section-title">2 Branches in Vijayawada</h2>
+      <p class="section-sub" style="margin:0 auto;">SN Tuitions now serves students across two prime locations in Vijayawada.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:3rem;" class="branches-grid">
+      <div class="course-card fade-up" style="text-align:center;padding:2.5rem;">
+        <div style="font-size:3rem;margin-bottom:1rem;">📍</div>
+        <div class="course-title">Ramavarapadu Branch</div>
+        <div class="course-desc" style="margin:1rem 0;">Kottevari Veedhi, 8th Line, Ramavarapadu, Vijayawada, Andhra Pradesh 521108</div>
+        <div class="course-tags" style="justify-content:center;">
+          <span class="course-tag">Main Branch</span>
+          <span class="course-tag">Est. 2022</span>
+        </div>
+        <a href="https://maps.app.goo.gl/dXVxeJf9keSuP2r99" target="_blank" style="display:inline-block;margin-top:1.2rem;background:var(--blue);color:white;padding:.6rem 1.4rem;border-radius:8px;font-weight:700;text-decoration:none;font-size:.85rem;">📍 Get Directions</a>
+      </div>
+      <div class="course-card fade-up" style="text-align:center;padding:2.5rem;">
+        <div style="font-size:3rem;margin-bottom:1rem;">📍</div>
+        <div class="course-title">Kanuru Branch</div>
+        <div class="course-desc" style="margin:1rem 0;">Main Road, Kanuru, Vijayawada, Andhra Pradesh</div>
+        <div class="course-tags" style="justify-content:center;">
+          <span class="course-tag">New Branch</span>
+          <span class="course-tag">Kanuru</span>
+        </div>
+        <a href="https://maps.app.goo.gl/tCQy4dF1bVvoUUtu9" target="_blank" style="display:inline-block;margin-top:1.2rem;background:var(--blue);color:white;padding:.6rem 1.4rem;border-radius:8px;font-weight:700;text-decoration:none;font-size:.85rem;">📍 Get Directions</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="section-inner">
+    <div class="contact-grid">
+      <div class="contact-info fade-up">
+        <div class="section-tag" style="background:rgba(255,255,255,.1);color:#93c5fd;">Get In Touch</div>
+        <h2 class="contact-title">Visit Us Today!</h2>
+        <p class="contact-sub">Come visit SN Tuitions and see why hundreds of parents trust us with their children's future. We are here to help!</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div>
+              <div class="contact-item-title">Branch 1 — Ramavarapadu</div>
+              <div class="contact-item-text">Kottevari Veedhi, 8th Line, Ramavarapadu,<br/>Vijayawada, Andhra Pradesh 521108</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div>
+              <div class="contact-item-title">Branch 2 — Kanuru</div>
+              <div class="contact-item-text">Main Road, Kanuru,<br/>Vijayawada, Andhra Pradesh</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📞</div>
+            <div>
+              <div class="contact-item-title">Phone</div>
+              <div class="contact-item-text">+91 9959256426</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">💬</div>
+            <div>
+              <div class="contact-item-title">WhatsApp</div>
+              <div class="contact-item-text">+91 9959256426</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">🕐</div>
+            <div>
+              <div class="contact-item-title">Timings (Both Branches)</div>
+              <div class="contact-item-text">Monday to Saturday: 5:30 PM – 9:00 PM</div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-btns">
+          <a href="tel:919959256426" class="btn-call">📞 Call Now</a>
+          <a href="https://wa.me/919959256426" target="_blank" class="btn-wa">💬 WhatsApp</a>
+        </div>
+      </div>
+      <div class="fade-up">
+        <p style="color:white;font-weight:700;margin-bottom:.75rem;">📍 Ramavarapadu Branch</p>
+        <div class="map-wrap" style="height:270px;margin-bottom:1.2rem;">
+          <iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.1289096007513!2d80.68082211086819!3d16.519588427157963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35e509124b1f93%3A0xd159b1329919fed4!2sSN%20TUITIONS!5e0!3m2!1sen!2sin!4v1772768695210!5m2!1sen!2sin"
+width="100%"
+height="270"
+style="border:0;"
+loading="lazy"
+allowfullscreen>
+</iframe>
+        </div>
+        <p style="color:white;font-weight:700;margin-bottom:.75rem;">📍 Kanuru Branch</p>
+        <div class="map-wrap" style="height:270px;">
+          <iframe src="https://www.google.com/maps?q=16.494528,80.690083&z=17&output=embed" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo" style="text-decoration:none;">
+          <div class="nav-logo-icon"><img src="logo.png" alt="SN Logo" style="width:42px;height:42px;object-fit:contain;"/></div>
+          <div class="nav-logo-text">SN Tuitions<span>Vijayawada</span></div>
+        </a>
+        <p>Shaping the future of students since 2022. Expert coaching from Class VI to Intermediate with IIT, JEE & NEET specialists.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="#about">About Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#gallery">Gallery</a>
+         <a href="#branches">Branches</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:919959256426">📞 9959256426</a>
+        <a href="https://wa.me/919959256426">💬 99592 56426</a>
+        <a href="#contact">📍 Ramavarapadu/Kanuru, Vijayawada</a>
+        <a href="#contact">🕐 5:30 PM – 9:00 PM</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 SN Tuitions. All rights reserved.</div>
+      <div class="footer-copy">Website by <strong style="color:rgba(255,255,255,.5);">LocalDeveloper</strong> 💻</div>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING WA -->
+<a href="https://wa.me/919959256426" target="_blank" class="float-wa" title="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+  </svg>
+</a>
+
+<!-- FLOATING CALL -->
+<a href="tel:919959256426" class="float-call" title="Call Now">📞</a>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt=""/>
+  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+</div>
+
+<script>
+
+
+
+
+
+
+
+// SPLASH
+(function(){
+  document.body.style.overflow='hidden';
+  var s=document.getElementById('splash');
+  setTimeout(function(){s.classList.add('active');},200);
+  setTimeout(function(){s.classList.add('open');},1500);
+  setTimeout(function(){s.classList.add('done');},2200);
+  setTimeout(function(){s.style.display='none';document.body.style.overflow='';},2700);
+})();
+
+
+// Hero stats counter
+function animateHeroStats(){
+  document.querySelectorAll('.hero-stat-num[data-count]').forEach(el=>{
+    const target = parseInt(el.dataset.count);
+    const suffix = el.dataset.suffix || '';
+    let current = 0;
+    const duration = 1500;
+    const step = target / (duration / 16);
+    const timer = setInterval(()=>{
+      current += step;
+      if(current >= target){
+        current = target;
+        clearInterval(timer);
+      }
+      el.textContent = Math.floor(current) + suffix;
+    }, 16);
+  });
+}
+const heroStatsObserver = new IntersectionObserver((entries)=>{
+  if(entries[0].isIntersecting){
+    animateHeroStats();
+    heroStatsObserver.disconnect();
+  }
+},{threshold:.3});
+const heroStats = document.querySelector('.hero-stats-grid');
+if(heroStats) heroStatsObserver.observe(heroStats);
+
+// Navbar scroll
+window.addEventListener('scroll',()=>{
+  const nav = document.getElementById('navbar');
+  nav.className = window.scrollY > 50 ? 'scrolled' : 'top';
+});
+
+// Mobile menu
+function toggleMenu(){
+  document.getElementById('mobileMenu').classList.toggle('open');
+}
+
+// Counter animation
+function animateCounters(){
+  document.querySelectorAll('[data-count]').forEach(el=>{
+    const target = parseInt(el.dataset.count);
+    let current = 0;
+    const step = target/60;
+    const timer = setInterval(()=>{
+      current += step;
+      if(current >= target){current=target;clearInterval(timer);}
+      el.textContent = Math.floor(current)+(target>=100?'+':'');
+    },16);
+  });
+}
+
+// Fade up on scroll
+const observer = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.classList.add('visible');
+      if(e.target.querySelector('[data-count]')||e.target.dataset.count) animateCounters();
+    }
+  });
+},{threshold:.1});
+document.querySelectorAll('.fade-up').forEach(el=>observer.observe(el));
+
+// Stats counter trigger
+const statsObserver = new IntersectionObserver((entries)=>{
+  if(entries[0].isIntersecting) animateCounters();
+},{threshold:.3});
+const statsEl = document.querySelector('.stats');
+if(statsEl) statsObserver.observe(statsEl);
+
+// Lightbox
+function openLightbox(src){
+  document.getElementById('lightbox-img').src=src;
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeLightbox(){
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow='';
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox();});
+
+// FAQ toggle
+function toggleFaq(el){
+  const answer = el.nextElementSibling;
+  const isOpen = el.classList.contains('open');
+  document.querySelectorAll('.faq-q').forEach(q=>{q.classList.remove('open');q.nextElementSibling.classList.remove('open');});
+  if(!isOpen){el.classList.add('open');answer.classList.add('open');}
+}
+</script>
+</body>
+</html>
